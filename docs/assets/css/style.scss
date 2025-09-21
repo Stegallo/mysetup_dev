@@ -1,0 +1,20 @@
+---
+---
+
+@import "{{ site.theme }}";  /* import the Hacker theme */
+
+/* Compact the big top header (Hacker) */
+.site-header,
+.page-header { padding: 0.6rem 0 !important; }
+
+.site-title,
+.project-name { font-size: 1.25rem !important; margin: 0 !important; }
+
+.site-description,
+.project-tagline { font-size: .95rem !important; margin: .2rem 0 0 !important; }
+/* or hide the tagline entirely: */
+/* .site-description, .project-tagline { display: none !important; } */
+
+/* Tighten the content’s top spacing */
+.main-content h1:first-child,
+main h1:first-child { margin-top: .6rem !important; }
