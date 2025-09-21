@@ -10,3 +10,5 @@ description: My developer setup docs.
 - **[Homebrew](https://brew.sh/)** - macOS package manager
 - **[uv]({{ "/uv/" | relative_url }})** — install, update, `uvx`, tool installs.
 - **[Python]({{ "/python/" | relative_url }})** — versions, virtual envs, packages.
+
+additional content
